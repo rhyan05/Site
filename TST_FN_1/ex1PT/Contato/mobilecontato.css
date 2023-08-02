@@ -1,0 +1,29 @@
+#navbar {
+    height: 190px;
+}
+
+#navbar-container {
+    flex-direction: column;
+
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+/* Showcase */
+#showcase-container {
+    padding: 30px;
+}
+.box{
+    width: 50%;
+    top: 70%;
+    left: 50%;
+}
